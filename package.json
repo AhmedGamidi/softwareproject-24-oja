@@ -1,0 +1,34 @@
+{
+  "name": "linkup",
+  "version": "0.1.0",
+  "description": "Event finder application for a semester software project",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^4.30.0",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@uploadthing/react": "^6.4.4",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "lucide-react": "^0.371.0",
+    "next": "14.2.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwind-merge": "^2.2.2",
+    "tailwindcss-animate": "^1.0.7",
+    "uploadthing": "^6.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
