@@ -48,6 +48,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## References
 sign up made with clerk (https://dashboard.clerk.com)
+components from shadcn's UI (https://ui.shadcn.com)
 
 ## the directory tree
 app-
