@@ -53,6 +53,7 @@ Components from shadcn's UI (https://ui.shadcn.com)
 
 ## The Directory Tree
 --
+
     app
     |
     -->(root) - original and primary pages of the app
