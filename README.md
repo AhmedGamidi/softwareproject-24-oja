@@ -47,12 +47,14 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## References
-sign up made with clerk (https://dashboard.clerk.com)
-components from shadcn's UI (https://ui.shadcn.com)
+Sign up made with clerk (https://dashboard.clerk.com).
 
-## the directory tree
-app-
+Components from shadcn's UI (https://ui.shadcn.com)
+
+## The Directory Tree
+--
+    app
     |
-    --(root) - original and primary pages of the app
-    --(auth) - sign up and sign in related files of the app
-    --layout - fonts, title and description
+    -->(root) - original and primary pages of the app
+    -->(auth) - sign up and sign in related files of the app
+    -->layout - fonts, title and description
