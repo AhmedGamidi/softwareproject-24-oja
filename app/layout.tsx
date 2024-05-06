@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "LinkUp",
   description: "Link up is a platform for event management, connecting users with a diverse range of virtual and live events.",
   icons: {
-    icon: '/assets/images/logo.svg'
+    icon: '/assets/images/linkup_logo.svg'
   }
 };
 

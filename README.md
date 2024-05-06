@@ -1,3 +1,14 @@
+## LinkUp
+A platform that connects users with a diverse range of virtual and live events, including: 
+music concerts, 
+conferences, 
+workshops, 
+networking sessions. 
+
+It serves as a hub for event discovery, ticketing, and community engagement, catering to users' interests and preferences.
+
+Made for a semester project.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -35,21 +46,16 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## LinkUp
-A platform that connects users with a diverse range of virtual and live events, including: 
-music concerts, 
-conferences, 
-workshops, 
-networking sessions. 
-
-It serves as a hub for event discovery, ticketing, and community engagement, catering to users' interests and preferences.
-
 ## References
-sign up made with clerk (https://dashboard.clerk.com)
+Sign up made with clerk (https://dashboard.clerk.com).
 
-## the directory tree
-app-
+Components from shadcn's UI (https://ui.shadcn.com)
+
+## The Directory Tree
+--
+
+    app
     |
-    --(root) - original and primary pages of the app
-    --(auth) - sign up and sign in related files of the app
-    --layout - fonts, title and description
+    -->(root) - original and primary pages of the app
+    -->(auth) - sign up and sign in related files of the app
+    -->layout - fonts, title and description
