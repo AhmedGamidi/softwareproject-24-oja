@@ -18,19 +18,24 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "lucide-react": "^0.371.0",
+    "mongodb": "^6.6.2",
+    "mongoose": "^8.4.0",
     "next": "14.2.2",
+    "query-string": "^9.0.0",
     "react": "^18",
     "react-dom": "^18",
+    "stripe": "^15.8.0",
+    "svix": "^1.24.0",
     "tailwind-merge": "^2.2.2",
     "tailwindcss-animate": "^1.0.7",
     "uploadthing": "^6.9.0"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
+    "@types/node": "20.12.11",
+    "@types/react": "18.3.2",
     "@types/react-dom": "^18",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "typescript": "5.4.5"
   }
 }
