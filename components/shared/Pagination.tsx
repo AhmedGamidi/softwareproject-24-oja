@@ -3,7 +3,7 @@
 import { useRouter, useSearchParams } from 'next/navigation'
 import React from 'react'
 import { formUrlQuery } from '@/lib/utils'
-import { Button } from '../button'
+import { Button } from '../ui/button'
 
 type PaginationProps = {
   page: number | string,
