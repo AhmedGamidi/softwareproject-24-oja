@@ -1,7 +1,6 @@
 {
   "name": "linkup",
   "version": "0.1.0",
-  "description": "Event finder application for a semester software project",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,42 +9,31 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@clerk/nextjs": "^4.30.0",
-    "@hookform/resolvers": "^3.4.2",
-    "@radix-ui/react-alert-dialog": "^1.0.5",
-    "@radix-ui/react-checkbox": "^1.0.4",
+    "@clerk/nextjs": "^5.1.5",
     "@radix-ui/react-dialog": "^1.0.5",
-    "@radix-ui/react-label": "^2.0.2",
-    "@radix-ui/react-select": "^2.0.0",
     "@radix-ui/react-separator": "^1.0.3",
     "@radix-ui/react-slot": "^1.0.2",
-    "@stripe/stripe-js": "^3.4.1",
-    "@types/react-datepicker": "^6.2.0",
     "@uploadthing/react": "^6.6.0",
     "class-variance-authority": "^0.7.0",
-    "clsx": "^2.1.0",
-    "lucide-react": "^0.371.0",
-    "mongodb": "^6.6.2",
-    "mongoose": "^8.4.0",
-    "next": "14.2.2",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.395.0",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.1",
+    "next": "14.2.4",
     "query-string": "^9.0.0",
     "react": "^18",
-    "react-datepicker": "^6.9.0",
     "react-dom": "^18",
-    "react-hook-form": "^7.51.5",
-    "stripe": "^15.8.0",
     "svix": "^1.24.0",
-    "tailwind-merge": "^2.2.2",
+    "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
-    "uploadthing": "^6.12.0",
-    "zod": "^3.23.8"
+    "uploadthing": "^6.12.0"
   },
   "devDependencies": {
-    "@types/node": "20.12.11",
-    "@types/react": "18.3.2",
+    "@types/node": "^20",
+    "@types/react": "^18",
     "@types/react-dom": "^18",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "typescript": "5.4.5"
+    "typescript": "^5"
   }
 }
