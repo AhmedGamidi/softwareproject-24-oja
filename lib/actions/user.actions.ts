@@ -102,3 +102,19 @@ export async function deleteUser(clerkId: string) {
     throw new Error('User deletion failed');
   }
 }
+const newUser: CreateUserParams = {
+  clerkId: '1',
+  firstName: 'Oluwamayokun',
+  lastName: 'Sofowora',
+  username: 'mayokun',
+  email: 'sofoworamayokun@gmail.com',
+  photo: ''
+};
+
+createUser(newUser)
+  .then(savedUser => {
+    console.log('User created successfully:', savedUser);
+  })
+  .catch(error => {
+    console.error('Error creating user:', error);
+  });

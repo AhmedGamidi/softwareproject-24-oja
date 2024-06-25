@@ -6,7 +6,7 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: linear-gradient(to bottom, #3b82f6, transparent); /* Blue to transparent gradient */
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -39,7 +39,7 @@
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
+    --background: linear-gradient(to bottom, #1e3a8a, transparent); /* Darker blue for dark mode */
     --foreground: 210 40% 98%;
 
     --card: 222.2 84% 4.9%;
@@ -78,6 +78,8 @@
 
 body {
   font-family: var(--font-poppins);
+  background: var(--background); /* Use the gradient as the background */
+  color: var(--foreground);
 }
 
 .filter-grey {

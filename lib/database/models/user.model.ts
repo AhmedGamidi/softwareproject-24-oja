@@ -6,7 +6,7 @@ const UserSchema = new Schema({
   firstName: { type: String, required: true },
   lastName: {type: String, required: true },
   username: { type: String, required: true, unique: true },
-  photo: { type: String, required: true },
+  photo: { type: String, required: false },
 })
 
 const User = models.User || model('User', UserSchema);
